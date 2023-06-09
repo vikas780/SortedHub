@@ -2,7 +2,6 @@
   "name": "sortedhub",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "dependencies": {
     "@auth0/auth0-react": "^2.0.1",
     "axios": "^1.3.5",
@@ -11,17 +10,19 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "styled-components": "^5.3.6",
-    "react-fusioncharts": "^3.1.2"
+    "react-fusioncharts": "^3.1.2",
+    "react-router-dom": "^6.10.0"
   },
   "devDependencies": {
+    "@testing-library/react": "^14.0.0",
     "buffer": "^5.7.1",
     "parcel": "^2.8.3",
-    "process": "^0.11.10",
-    "react-router-dom": "^6.10.0"
+    "process": "^0.11.10"
   },
   "scripts": {
     "start": "parcel index.html",
-    "test": "jest"
+    "test": "jest",
+    "build": "parcel build index.html"
   },
   "author": "vikas",
   "license": "ISC"
